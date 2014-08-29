@@ -73,7 +73,7 @@ Ext.define('BLBoard', {
 			storeConfig: {
 				filters: [
 //					{ property: 'ScheduleState', operator: '<', value: 'In-Progress' },
-					{ property: 'kanbanState', operator: '!=', value: 'Done' }
+//					{ property: 'kanbanState', operator: '!=', value: 'Done' }
 				],
 				sorters: [
 					{ property: 'Rank', direction: 'ASC' }
